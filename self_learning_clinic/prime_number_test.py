@@ -9,4 +9,8 @@ class Test_prime_numbers(unittest.Testcase):
 		self.assertRaises(TypeError, primenumbers('a_string'))
 
 	def test_asserts_input_not_negative(self):
-		self.assertIs(primenumbers(-5), 'Please don\'t input negatives')		
+		self.assertIs(primenumbers(-5), 'Please don\'t input negatives')
+
+	def test_returns_primes_in_array(self):
+		# Result should be an array
+		self.assertIsInstance(primenumbers(16), List)			
