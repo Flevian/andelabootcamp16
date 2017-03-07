@@ -14,6 +14,10 @@ class Test_prime_numbers(unittest.TestCase):
 	def test_returns_primes_in_array(self):
 		""" Result should be an array"""
 		self.assertIsInstance(primesnumbers(25), list)
+
+	def test_asserts_input_not_zero(self):
+		""" Input should be not be zero"""
+		self.assertIsNot(primesnumbers(0), 'Zero is not prime number')	
 				    
 if __name__ == "__main__":
 	unittest.main()
