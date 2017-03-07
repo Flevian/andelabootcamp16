@@ -9,7 +9,12 @@ class Test_prime_numbers(unittest.TestCase):
 
 	def test_asserts_input_not_negative(self):
 		""" Input should be a positive value"""
-		self.assertIsNot(primesnumbers(-5), 'Please don\'t input negatives')	    
+		self.assertIsNot(primesnumbers(-5), 'Please don\'t input negatives')
+
+	def test_returns_primes_in_array(self):
+		""" Result should be an array"""
+		self.assertIsInstance(primesnumbers(25), list)
+				    
 if __name__ == "__main__":
 	unittest.main()
 
