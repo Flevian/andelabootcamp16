@@ -1,12 +1,23 @@
 class ListCompresnsion(object):
-	def __init__(list_length, list_step):
-		self.list_length == list_length
 
-		return self.list_length
+    def __init__(self, a, b):
+        """
+        this function takes in list length and step(difference between consecutive values and process a list)
+        """
 
+        self.a = a
+        self.b = b
+
+        self.my_list =[]
+        """
+        processing a list
+        """
+        list_length = range(a, (a * b))
+
+        for value in list_length:
+            my_list.append(value)
 
 class  BinarySearch(ListCompresnsion):
-	def search(desired_value)
-		count = {}
 
-		return count		
+
+    pass
