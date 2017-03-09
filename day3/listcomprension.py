@@ -5,7 +5,8 @@ class ListCompresnsion(object):
 		return self.list_length
 
 
-class  BinarySearch(desired_value):
+class  BinarySearch(ListCompresnsion):
+	def search(desired_value)
 		count = {}
 
 		return count		
