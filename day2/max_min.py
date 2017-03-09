@@ -22,8 +22,8 @@ def find_max_min(my_list):
             if they are equal
             if they are not equal it returns a list that contains the minimum and maximum values
             """
-            min_max_equals = len(my_list)
-            return    min_max_equals 
+            pass
+ 
 
         else:
             min_max_result.append(min_value)
